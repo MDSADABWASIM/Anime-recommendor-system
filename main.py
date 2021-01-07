@@ -28,4 +28,5 @@ if (st.button('Get Recommendation')):
     # dataframe = load('../models/df.pkl')
     result = inference(dataframe,option)
     st.write(result.head(20))
+    st.balloons()
 
